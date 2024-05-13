@@ -5,7 +5,7 @@ export default function About() {
     return (
       <div className="about-page">
         <div>
-            <img src="/images/image54.png"   className="about-page-image"/>
+            <img src="./images/image54.png"  lat="van-image" className="about-page-image"/>
         </div>
         <div className="description">
             <h1>Don’t squeeze in a sedan when you could relax in a van.</h1>
