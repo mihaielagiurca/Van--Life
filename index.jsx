@@ -25,7 +25,7 @@ export default function App() {
           <Route path="/About" element = {<About/>}/>
       </Routes>
        <div className="footer">
-        <p>Ⓒ 2022 #VANLIFE</p>
+        <p>Ⓒ 2024 #VANLIFE</p>
       </div>
     </BrowserRouter>
 
