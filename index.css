@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.nav-item {
+    text-decoration: none; 
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 112px;
+    background-color: rgba(255, 247, 237, 1);
+    margin-bottom: 0;
+}
+.left-item{
+    display: flex;   
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 40px;
+}
+.right-item{
+    display: flex; 
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+}
+.nav-item{
+     margin-left: 20px;
+     color: rgba(0, 0, 0, 1);
+}
+.right-item .nav-item{
+    color: rgba(77, 77, 77, 1);
+}
+.right-item .nav-item:last-child {
+    margin-right: 25px;  
+}
+.home-page{
+    background-image: url("/images/image53.png");
+    background-size: cover;  
+    margin-top: 0;
+}
+.home-page >h1{
+    color: white;
+    font-size: 36px;
+    font-weight: 800;
+    padding-top: 66px;
+    padding-left: 26px;
+    padding-right: 26px;
+}
+.home-page >p{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 26px 28px;
+}
+.home-button-container{
+    display: flex;
+     justify-content: center;
+}
+.home-button{
+    background-color: rgba(255, 140, 56, 1);
+    padding: 9px 143px;
+    border-radius: 5px;
+    margin-bottom: 65px;
+}
+.footer{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(170, 170, 170, 1);
+    background-color:  rgba(37, 37, 37, 1);
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 22px;
+} 
+.about-page{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 247, 237, 1);
+}
+.about-page-image{
+    display: block;
+    height: 233px;
+    margin: 0 auto;
+}
+.description >h1{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    padding: 0 26px;
+}
+.description >p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    padding: 0 26px;
+    margin-bottom: 55px;
+}
+.explore{
+    height: 195px;
+    background-color: rgba(255, 204, 141, 1);
+    margin: 0 26px;
+    margin-bottom: 53px;
+}
+.explore >h3{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-top: 32px;
+    margin-left: 37px;   
+}
+.explore-button{
+    background-color:rgba(22, 22, 22, 1);
+    color: white;
+    padding: 12px 22px;
+    border-radius: 10px;
+    display: flex;
+    margin: 0 38px;
+}
